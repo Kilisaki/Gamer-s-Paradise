@@ -1,2 +1,1 @@
-# Gamer-s-Paradise
-Site about gaming devices and i/o utilities 
+# Gaming Peripherals Site 

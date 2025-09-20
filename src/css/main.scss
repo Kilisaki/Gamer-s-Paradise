@@ -1,0 +1,55 @@
+@use 'base/variables' as *;
+
+// Then import other partials
+@use 'base/reset';
+@use 'base/typography';
+@use 'base/mixins';
+
+@use 'components/buttons';
+@use 'components/card';
+
+@use 'layout/header';
+@use 'layout/grid';
+@use 'layout/footer';
+
+@use 'pages/home';
+@use 'pages/catalog';
+@use 'pages/product';
+
+// Global Styles
+// -------------
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $text-color;
+  background-color: $body-bg;
+}
+
+// Utility classes
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 $container-padding;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
